@@ -57,7 +57,8 @@
             try {
                 // Формирование URL с query-параметрами
                 //const url = `http://localhost:3000/sum?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`;
-                const url = `https://server-summ.onrender.com/sum?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`;
+               const url = `https://sum-server-zi2a.onrender.com/sum?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`;
+
                 // Выполнение GET-запроса к серверу
                 const response = await fetch(url);
                 // Парсинг ответа в формате JSON
@@ -81,4 +82,5 @@
         }
     </script>
 </body>
+
 </html>
